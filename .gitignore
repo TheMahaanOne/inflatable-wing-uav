@@ -1,0 +1,9 @@
+# MATLAB autosave / temp files
+*.asv
+*.m~
+*.mat
+# SOLIDWORKS lock files and OS clutter
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
