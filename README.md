@@ -14,7 +14,8 @@
 
 A fixed-wing UAV whose wing has **no ribs or spars**: it is a pressurised film envelope that only takes its airfoil shape once inflated. I designed the aircraft end to end: sizing code, CAD, laser-cut file generation, fabrication and testing.
 
-<p align="center"><img src="images/completed_aircraft.jpg" width="32%"> <img src="images/cad_render.jpg" width="62%"></p>
+<p align="center"><img src="images/completed_aircraft.jpg" width="32%"> <img src="images/cad_assembly_inflatable_wing_twin_carbon_booms_fuselage_vtail.jpg" width="62%"></p>
+<p align="center"><sub>Completed aircraft (left); CAD assembly: inflatable wing, twin carbon booms, 3D-printed fuselage and V-tail (right)</sub></p>
 
 | | |
 |---|---|
@@ -58,9 +59,10 @@ Before this, every skin and baffle panel was drawn and cut by hand. I wrote two 
 Nylon film is cut on the laser cutter from the generated DXFs. Baffles are then bonded to the skin with a heat-and-pressure (impulse) sealing process. Nylon holds about **3× the inflation pressure of LDPE**, which gives noticeably better aeroelastic stiffness. That's why 5 of the 8 wings were nylon.
 
 <p align="center">
-<img src="images/fab_laser_cutter.jpg" width="32%"> <img src="images/fab_impulse_sealer.jpg" width="32%"> <img src="images/fab_cut_skin.jpg" width="32%">
-<img src="images/fab_baffle_layout.jpg" width="24%"> <img src="images/fab_heat_sealing.jpg" width="24%"> <img src="images/fab_inflated_wing.jpg" width="24%">
+<img src="images/nylon_film_on_the_laser_cutter_bed.jpg" width="32%"> <img src="images/impulse_sealer_used_for_baffle_to_skin_bonds.jpg" width="32%"> <img src="images/baffle_positions_taped_out_before_sealing.jpg" width="32%">
+<img src="images/cut_skin.jpg" width="24%"> <img src="images/heat_and_pressure_fusing_the_adhesive_faces.jpg" width="24%"> <img src="images/final_wing_pressurised.jpg" width="24%">
 </p>
+<p align="center"><sub>Top: nylon film on the laser cutter bed · impulse sealer used for baffle-to-skin bonds · baffle positions taped out before sealing. Bottom: cut skin · heat and pressure fusing the adhesive faces · final wing, pressurised</sub></p>
 
 ## 4. CAD: design iterations
 
@@ -74,11 +76,13 @@ Everything was modelled in SOLIDWORKS. Each iteration is published as one STL (c
 
 **Parts of the current build** ([`cad/itr3_current/parts`](cad/itr3_current/parts), STL + Parasolid): fuselage hull, motor mount, fuselage shell, V-tail mount, V-tail panel, battery block.
 
-<p align="center"><img src="images/drawing_fuselage.jpg" width="24%"> <img src="images/drawing_motor_mount.jpg" width="24%"> <img src="images/drawing_tail_mount.jpg" width="24%"> <img src="images/drawing_v_tail.jpg" width="24%"></p>
+<p align="center"><img src="images/wing_production_drawing.jpg" width="24%"> <img src="images/motor_mount.jpg" width="24%"> <img src="images/tail_mount.jpg" width="24%"> <img src="images/v_tail_panel.jpg" width="24%"></p>
+<p align="center"><sub>Wing production drawing · motor mount · tail mount · V-tail panel</sub></p>
 
 ## 5. Assembly & test
 
-<p align="center"><img src="images/assembled_wing_booms_tail.jpg" width="30%"> <img src="images/hand_launch.jpg" width="34%"> <img src="images/static_thrust_check.jpg" width="34%"></p>
+<p align="center"><img src="images/wing_twin_booms_and_vtail_assembled.jpg" width="30%"> <img src="images/hand_launch_trial.jpg" width="34%"> <img src="images/static_thrust_and_setup_checks.jpg" width="34%"></p>
+<p align="center"><sub>Wing, twin booms and V-tail assembled · hand-launch trial · static thrust and setup checks</sub></p>
 
 ## Repository layout
 
