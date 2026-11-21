@@ -74,11 +74,6 @@ Everything was modelled in SOLIDWORKS. Each iteration is published as one STL (c
 | itr2 | [`stl`](cad/itr2/uav_itr2.stl) · [`x_t`](cad/itr2/uav_itr2.x_t) | First complete layout: twin booms, V-tail, X2216 motor, servos, battery |
 | itr1 | [`stl`](cad/itr1/uav_itr1.stl) · [`x_t`](cad/itr1/uav_itr1.x_t) | First concept: inflated (bumpy) wing and 15-inch prop |
 
-**Parts of the current build** ([`cad/itr3_current/parts`](cad/itr3_current/parts), STL + Parasolid): fuselage hull, motor mount, fuselage shell, V-tail mount, V-tail panel, battery block.
-
-<p align="center"><img src="images/wing_production_drawing.jpg" width="24%"> <img src="images/motor_mount.jpg" width="24%"> <img src="images/tail_mount.jpg" width="24%"> <img src="images/v_tail_panel.jpg" width="24%"></p>
-<p align="center"><sub>Wing production drawing · motor mount · tail mount · V-tail panel</sub></p>
-
 ## 5. Assembly & test
 
 <p align="center"><img src="images/wing_twin_booms_and_vtail_assembled.jpg" width="30%"> <img src="images/hand_launch_trial.jpg" width="34%"> <img src="images/static_thrust_and_setup_checks.jpg" width="34%"></p>
